@@ -25,7 +25,7 @@ To create a 3D model from given orthographic projection.
 4. Draw a rectangle and enter:
    - **Length:** 120 mm
    - **Height:** 60 mm
-   - 
+
 5. Choose **Create > Circle > Center Diameter Circle**.
 6. <img width="1920" height="1014" alt="Screenshot (329)" src="https://github.com/user-attachments/assets/1ba3eab4-5e0d-4576-b4aa-9e54ba277261" />
 
