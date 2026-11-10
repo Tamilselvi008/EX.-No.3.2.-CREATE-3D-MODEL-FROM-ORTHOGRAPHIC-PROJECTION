@@ -21,25 +21,24 @@ To create a 3D model from given orthographic projection.
 2. Select the vertical plane that will show the bracket’s side profile—typically the **XZ plane** or **YZ plane**.
    <img width="1920" height="1028" alt="Screenshot (293)" src="https://github.com/user-attachments/assets/6ff55e65-d7cf-41f0-a718-a7642f2a91ba" />
 
-4. Choose **Rectangle > 2-Point Rectangle**.
-5. Draw a rectangle and enter:
+3. Choose **Rectangle > 2-Point Rectangle**.
+4. Draw a rectangle and enter:
    - **Length:** 120 mm
    - **Height:** 60 mm
    - 
-6. Choose **Create > Circle > Center Diameter Circle**.
-7. <img width="1920" height="1014" alt="Screenshot (329)" src="https://github.com/user-attachments/assets/1ba3eab4-5e0d-4576-b4aa-9e54ba277261" />
+5. Choose **Create > Circle > Center Diameter Circle**.
+6. <img width="1920" height="1014" alt="Screenshot (329)" src="https://github.com/user-attachments/assets/1ba3eab4-5e0d-4576-b4aa-9e54ba277261" />
 
-8. Draw the circle where the curved portion should be, then enter **220 mm** for its diameter.
+7. Draw the circle where the curved portion should be, then enter **220 mm** for its diameter.
    - Position the circle so its arc forms the intended arch. Use dimensions or constraints to locate its center accurately.
-11. Choose **Modify > Trim**. Click the unwanted sections of the circle and any extra line segments to remove them.
+8. Choose **Modify > Trim**. Click the unwanted sections of the circle and any extra line segments to remove them.
 <img width="1920" height="1014" alt="Screenshot (351)" src="https://github.com/user-attachments/assets/52020883-0d73-4cee-945c-e2f4c94d1a2b" />
 
-
-13. Inspect the sketch:
+9. Inspect the sketch:
     - The outer outline should be continuous.
     - The intended areas to extrude should be shaded as closed profiles.
     - Remove any duplicate or stray segments.
-14. Select **Finish Sketch**.
+10. Select **Finish Sketch**.
 <img width="1920" height="1014" alt="Screenshot (350)" src="https://github.com/user-attachments/assets/2315e3e3-8330-403d-b257-a7c0a91e67d1" />
 
 ## 3. Extrude the main profile
@@ -86,12 +85,12 @@ To create a 3D model from given orthographic projection.
 4. Place the circle at the required hole center and enter **40 mm** for its diameter.
 5. Use dimensions or constraints to position the circle correctly on the mounting section.
 6. Select **Finish Sketch**.
-7. <img width="1920" height="1014" alt="Screenshot (335)" src="https://github.com/user-attachments/assets/a7800690-5579-4487-b817-0965819fc272" />
+ <img width="1920" height="1014" alt="Screenshot (335)" src="https://github.com/user-attachments/assets/a7800690-5579-4487-b817-0965819fc272" />
 
-8. Select the circular profile and press **E** for **Extrude**.
-9. Set **Operation** to **Cut**.
-10. Set the extent to **Through All** (or use the specified depth if the drawing requires a blind hole).
-11. Select **OK**.
+7. Select the circular profile and press **E** for **Extrude**.
+8. Set **Operation** to **Cut**.
+9. Set the extent to **Through All** (or use the specified depth if the drawing requires a blind hole).
+10. Select **OK**.
 <img width="1920" height="1011" alt="Screenshot (336)" src="https://github.com/user-attachments/assets/8ad9db36-317e-49e8-8776-8ebf303305ee" />
 
 ## 7. Cut the hole in the curved section
